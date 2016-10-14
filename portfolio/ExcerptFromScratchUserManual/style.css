@@ -1,0 +1,177 @@
+@charset "utf-8";
+body {
+	font-family: Verdana,Arial,sans-serif;
+	color:black;
+	font-size:14pt;
+	line-height:22pt;
+}
+
+h1 {
+	color:black;
+	font-size:20pt;
+	line-height:30pt;
+}
+h1 img {
+	border:none;
+}
+h2 {
+	color:black;
+	font-size:16pt;
+	line-height:24pt;
+}
+h3 {
+	color:black;
+	font-size:14pt;
+	line-height:22pt;
+}
+h4 {
+	color:black;
+	font-size:10pt;
+	line-height:15pt;
+}
+p.author {
+	font-size: 10pt;
+	text-align:left;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+p.author img {
+	border:none;
+}
+p.copyright {
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+p.result {
+	font-style:italic;
+}
+footer {
+	color:black;
+	font-size:10pt;
+	line-height:10pt;
+}
+footer p {
+	margin-top: 0em;
+	margin-bottom: .2em;
+}
+caption, .caption {
+	font-size:12pt;
+	font-weight:bold;
+	text-align:center;
+}
+img {
+	border:1px solid;
+}
+.large_image {
+	text-align:center;
+}
+table#table1 {
+    border-collapse: collapse;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+table, td, th {
+    border: 1px solid black;
+}
+tr:nth-child(even){
+	background-color:#BCBCBC;
+}
+th {
+	background-color:#AEC6E5;
+	text-align:left;
+} 
+td, th {
+	padding:5px;
+	font-size:12pt;
+}
+header {
+	background-color:#25aff4;
+	border-color: black;
+	border-style: solid;
+	border-width: 1.5px;
+	padding-left: 10px;
+}
+header h1 {
+	color:white;
+	text-shadow: -2px 0 #f49d25, 0 2px #f49d25, 2px 0 #f49d25, 0 -2px #f49d25;
+}
+footer h4 {
+	margin-top: 0px;
+	padding-top:5px;
+}
+article {
+	overflow: hidden;
+}
+div#main-nav ul {
+	padding-left:1.2em;
+	list-style-type:none;
+}
+.navlist {
+	padding-left:0px;
+}
+.here, .here a {
+/*	background-color: aqua;*/
+	color:black;
+	font-weight:bold;
+}
+#main-nav {
+	width: 18%;
+	float: left;
+	font-size:9pt;
+	background-color:#DBDBDB;
+	padding-left: 10px;
+	padding-bottom: 99999px;
+    margin-bottom: -99999px;
+	border-color:black;
+	border-style:none solid none solid;
+	border-width: 1.5px;
+}
+#main-container {
+	width: 80%;
+	float: right;
+}
+#main {
+	width: 75%;
+	float: left;
+	background-color:white;
+	padding-left: 10px;
+}
+#sidebar {
+	width:22%;
+	float:right;
+	font-size:12pt;
+	padding-left: 10px;
+	padding-bottom: 99999px;
+    margin-bottom: -99999px;
+	background-color:#DBDBDB;
+	border-color:black;
+	border-style:none solid none solid;
+	border-width: 1.5px;
+}
+footer {
+	clear:both;
+	background-color:#25aff4;
+	border-color:black;
+	border-style:solid;
+	border-width: 1.5px;
+	padding-left: 10px;
+}
+header table {
+	border:none;
+}
+td.nav_left {
+	border:none;
+	width:33%;
+}
+td.nav_up {
+	border:none;
+	width:33%;
+	text-align:center;
+}
+td.nav_right {
+	border:none;
+	width:33%;
+	text-align:right;
+}

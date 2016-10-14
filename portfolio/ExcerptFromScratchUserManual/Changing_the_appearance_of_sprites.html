@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Changing the appearance of sprites</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div>
+    <header>
+      <h1>Excerpt from Scratch User Manual</h1>
+      <p class="author"><a href="mailto:trwebster680@gmail.com"><img src="scratch/freeforcommuse_noattribrequired_emailicon.png" alt="email the author icon" width="25" height="26"/></a> By Theresa (Terri) Webster</p>
+      <nav>
+        <table style="width:100%">
+            <tr>
+              <td class="nav_left">&lArr;<a href="Editing_sprites.html">previous</a></td>
+              <td class="nav_up">&uArr;<a href="Designing_Sprites.html">up</a></td>
+              <td class="nav_right"></td>
+            </tr>
+        </table>
+      </nav>
+    </header>
+    <section>
+      <article>
+      <div id="main-nav">
+        <h3>Site map</h3>
+       		<ul class="navlist">
+ 	      		<li><a href="index.html">Home</a></li>
+ 	      		<ul>
+ 	      			<li><a href="Designing_Sprites.html">Designing Sprites</a></li>
+ 	      			<ul>
+ 	      				<li><a href="Creating_sprites.html">Creating sprites</a></li>
+ 	      				<li><a href="Renaming_sprites.html">Renaming sprites</a></li>
+ 	      				<li><a href="Editing_sprites.html">Editing sprites</a></li>
+ 	      				<li class="here"><a href="Changing_the_appearance_of_sprites.html">Changing the appearance of sprites</a></li>
+ 	      			</ul>
+ 	      		</ul>
+       		</ul>
+       	</div>
+       	<div id="main-container">
+        <div id="main">
+          <h2>Changing the appearance of sprites</h2>
+          <p>It’s fun to make sprites do things in Scratch. One of the ways you can make it look like your sprite is doing something is to change the sprite’s appearance by switching between the sprite’s costumes (e.g. a rocket sprite could have one costume where its landing gear is in place and a second costume with fire shooting out the back). You can change the appearance of a sprite in an existing project by creating a script to control the sprite’s costume changes.</p>
+          <h3>To change the appearance of a sprite</h3>
+          <ol>
+              <li>Create a new Scratch project with at least one sprite in it.</li>
+              <li>From the <strong>Sprite list</strong>, select the sprite whose costume you want to change.</li>
+              <p class="result">A blue box appears around the selected sprite.</p>
+              <li>On the <strong>Scripts</strong> tab of the <strong>Blocks palette</strong>, click <strong>Events</strong>.</li>
+              <p class="result">The <strong>Events</strong> code blocks appear.</p>
+               <img src="scratch/11a_blocks_events.png" alt="cropped image of script types on Scripts tab of Blocks palette" style="width:214px;height:155px;">
+              <li>Drag a <strong>when green flag clicked</strong> block <img src="scratch/block_when_green_flag.png" alt="when green flag clicked code block image" style="width:121px;height:43px;"> to the <strong>Scripts</strong> area.</li>
+              <p class="result">The <strong>when green flag clicked</strong> block appears in the <strong>Scripts</strong> area.</p>
+              <li>On the <strong>Blocks palette</strong>, click <strong>Control</strong> and drag a <strong>wait 1 secs</strong> block <img src="scratch/block_wait_1_sec.png" alt="wait 1 secs code block image" style="width:88px;height:28px;"> to the <strong>Scripts</strong> area to connect to the bottom of the <strong>when green flag clicked</strong> block.
+      </li>
+              <p class="result">The <strong>Control</strong> code blocks appear and the <strong>wait 1 secs</strong> block is connected to the <strong>when green flag clicked</strong> block in the <strong>Scripts</strong> area.</p>
+              <li>On the <strong>Blocks palette</strong>, click <strong>Looks</strong> and drag a <strong>switch costume to costume2</strong> block <img src="scratch/block_switch_costume_2.png" alt="switch costume to costume2 code block image" style="width:194px;height:30px;"> to the <strong>Scripts</strong> area to connect to the bottom of the <strong>wait 1 secs</strong> block.</li>
+              <p class="result">The <strong>Looks</strong> code blocks appear and the <strong>switch costume to costume2</strong> block is connected to the <strong>wait 1 secs</strong> block in the <strong>Scripts</strong> area.</p>
+              <li>Add another <strong>wait 1 secs</strong> block and <strong>switch costume to costume2</strong> block.</li>
+              <li>On the <strong>switch costume to costume2</strong> block that you just added, choose <strong>costume 1</strong> from the drop-down combo box.</li>
+              <p class="result">The last block is now a <strong>switch costume to costume1</strong> block. Your <strong>Scripts</strong> area should look similar to the one in the image below.</p>
+              <img src="scratch/11_change_appearance.png" alt="completed script for changing the appearance of a sprite image" style="width:329px;height:214px;">
+              <li>In the <strong>Stage</strong> area, click the <strong>green flag</strong> icon <img src="scratch/icon_green_flag.png" alt="green flag icon" style="width:25px;height:25px;"> to run your script.</li>
+              <p class="result">After a one second pause, your sprite’s appearance changes by switching to its second costume. After another one second pause, your sprite’s appearance changes again by switching back to its original costume.</p>
+              <li>Click <strong>File &gt; Save Now</strong> to save your project.</li>
+              <p class="result">Your project is saved.</p>
+          </ol>
+          <p>Now that you know how to change the appearance of a sprite by creating a script to control the sprite’s costume changes, you can make the sprites in all of your Scratch projects look like they’re doing things (e.g. a flying unicorn might have one costume with wings pointing up and a second costume with wings pointing down).</p>
+         </div>
+         <aside id="sidebar">
+           <h3>Resources</h3>
+           <p>To learn more about Scratch, see the <a href="https://scratch.mit.edu/info/faq/" target="_blank">Frequently Asked Questions</a> page on the Scratch website.</p>
+           <p>To join the Scratch community, check out the <a href="https://scratch.mit.edu/discuss/" target="_blank">discussion forums</a> on the Scratch website.</p>
+               <p>To have even more fun with Scratch, check out the tutorials at the following links:</p>
+               <ul>
+                 <li><a href="http://www.eastonhome.co.uk/Scratch/" target="_blank">Easton Home&mdash;Scratch tutorials</a></li>
+                 <li><a href="http://www.randlayprimaryschool.co.uk/index.php/student-learninglinks/scratch-tutorials" target="_blank">Randlay Primary School&mdash;Scratch tutorials</a></li>
+               </ul>
+           <p>To request a PDF of the Scratch User Manual, <a href="mailto:trwebster680@gmail.com">contact the author</a>.</p>
+         </aside>
+       </div>
+       </article>
+	 </section>
+     <footer>
+       <p class="copyright">&copy; 2016 Theresa R. Webster</p>
+     </footer>
+  </div>
+</body>
+</html>
